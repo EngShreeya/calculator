@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+<table border="1" cellpadding="10px" cellspacing="10px">
+    <tr>
+    <td colspan="3"><input type="text" id="res"></td>
+    <td><Button type="button" onclick="ac()">AC</Button></td>
+</tr>
+    
+    <tr>
+        <td><Button type="button" onclick="show(1)">1</Button></td>
+        <td><Button type="button" onclick="show(2)">2</Button></td>
+        <td><Button type="button" onclick="show(3)">3</Button></td>
+        <td><Button type="button" onclick="show('+')" id="res">+</Button></td>
+    </tr>
+    <tr>
+        <td><Button type="button" onclick="show(4)">4</Button></td>
+        <td><Button type="button" onclick="show(5)">5</Button></td>
+        <td><Button type="button" onclick="show(6)">6</Button></td>
+        <td><Button type="button" onclick="show('-')" id="res">-</Button></td>
+    </tr>
+    <tr>
+        <td><Button type="button" onclick="show(7)">7</Button></td>
+        <td><Button type="button" onclick="show(8)">8</Button></td>
+        <td><Button type="button" onclick="show(9)">9</Button></td>
+        <td><Button type="button" onclick="show('*') " id="res">*</Button></td>
+    </tr>
+    <tr>
+        <td><Button type="button" onclick="show(0)">0</Button></td>
+        <td><Button type="button" onclick="show('%')" id="res">%</Button></td>
+        <td><Button type="button" onclick="show('/')" id="res">/</Button></td>
+        <td><Button type="button" onclick="cal()" id="res">=</Button></td>
+    </tr>
+</table>   
+<script src="cal.js">
+
+</script> 
+</body>
+</html>
